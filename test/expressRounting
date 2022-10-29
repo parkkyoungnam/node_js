@@ -1,0 +1,25 @@
+var express = require("express");
+var app = express();
+var controller1 = require("./controller1")(app);
+var controller2 = require("./controller2")(app);
+
+/*
+app.get("/", function(req, res)
+{
+    res.send("ROOT");
+})
+
+
+// req 요청 // res 응답
+app.get("/test", function(req, res)
+{
+    res.send("TEST");
+});
+
+*/
+
+var server = app.listen(2000, function()
+{
+
+    console.log("서버 가동");
+})

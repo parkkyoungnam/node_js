@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_vs",
+  "version": "1.0.0",
+  "private" : true,
+  "dependencies": {
+    "express" : "*",
+    "ejs" : "*",
+    "body-parser" : "*",
+    "cookie-parser" : "*",
+    "express-session": "*",
+    "mysql" : "*"
+  
+  }
+ 
+}
