@@ -13,7 +13,7 @@ module.exports = function(app)
         + "</body>"
         + "</html>"
 
-        res.send(html);
+        res.send(html);d
         */
 
         res.render("index.html");
